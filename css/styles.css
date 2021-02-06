@@ -1,6 +1,6 @@
 /* ОБЩИЕ СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
 
-/* применяем основное семейство шрифтов для всего документа и ссылок */
+/* применяем основное семейство шрифтов и цвет для всего документа и ссылок */
 body,
 a {
   font-family: 'Roboto', sans-serif;
@@ -13,23 +13,34 @@ a {
 }
 .header-logo {
   font-family: 'Raleway', sans-serif;
-  color: var(--title-text);
+  color: var(--logo-text);
 }
-.header-logo > span {
+.logo {
   color: var(--logo-web);
+}
+.current-link {
+  color: var(--logo-web);
+}
+.link:hover,
+.link:focus {
+  color: var(--logo-web);
+}
+.link-tel {
+  color: var(--opis-text);
 }
 /* класс в логотипе footer*/
 .footer {
   background: var(--fon-color);
   color: var(--text-white);
 }
+.adress {
+  font-weight: 400;
+}
 .footer-text {
-  color: var(--text-white);
+  color: var(--footer-text);
+  font-weight: 400;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  color: var(--text-white);
-}
-.footer-logo > span {
-  color: var(--logo-web);
+  color: var(--opis-text);
 }

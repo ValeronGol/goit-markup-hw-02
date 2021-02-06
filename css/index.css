@@ -1,0 +1,42 @@
+.hero {
+  background-color: var(--fon-color);
+  color: var(--text-white);
+}
+.hero-h {
+  font-weight: 900;
+}
+.hero-link {
+  background-color: var(--logo-web);
+  color: var(--text-white);
+  font-weight: 700;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.priority-h {
+  font-weight: 700;
+}
+.priority-p {
+  font-weight: 400;
+  color: var(--opis-text);
+}
+.deal-title {
+  font-weight: 700;
+}
+.team-title {
+  font-weight: 500;
+}
+.team-p {
+  font-weight: 400;
+  color: var(--opis-text);
+}
