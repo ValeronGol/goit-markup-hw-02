@@ -5,15 +5,19 @@
 }
 .hero-title {
   font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
 }
 .hero-link {
   background-color: var(--logo-web);
   color: var(--text-white);
   font-weight: 700;
+  text-align: center;
 }
 /* Стили для особенностей */
 .priority-title {
   font-weight: 700;
+  text-transform: uppercase;
 }
 .priority-par {
   font-weight: 400;
