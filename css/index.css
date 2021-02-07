@@ -1,8 +1,9 @@
+/* Стили для героя */
 .hero {
   background-color: var(--fon-color);
   color: var(--text-white);
 }
-.hero-h {
+.hero-title {
   font-weight: 900;
 }
 .hero-link {
@@ -10,33 +11,23 @@
   color: var(--text-white);
   font-weight: 700;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.priority-h {
+/* Стили для особенностей */
+.priority-title {
   font-weight: 700;
 }
-.priority-p {
+.priority-par {
   font-weight: 400;
   color: var(--opis-text);
 }
+/* Стили для детельности */
 .deal-title {
   font-weight: 700;
 }
+/* Стили для команды*/
 .team-title {
   font-weight: 500;
 }
-.team-p {
+.team-par {
   font-weight: 400;
   color: var(--opis-text);
 }

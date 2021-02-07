@@ -2,17 +2,28 @@
 
 /* применяем основное семейство шрифтов и цвет для всего документа и ссылок */
 body,
-a {
+a,
+button {
   font-family: 'Roboto', sans-serif;
   color: var(--title-text);
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-/* класс в логотипе header */
-.header {
-  color: var(--title-text);
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+/* стили для header */
 .header-logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   color: var(--logo-text);
 }
 .logo {
@@ -20,6 +31,10 @@ a {
 }
 .current-link {
   color: var(--logo-web);
+  font-weight: 500;
+}
+.link {
+  font-weight: 500;
 }
 .link:hover,
 .link:focus {
@@ -28,7 +43,7 @@ a {
 .link-tel {
   color: var(--opis-text);
 }
-/* класс в логотипе footer*/
+/* стили для footer*/
 .footer {
   background: var(--fon-color);
   color: var(--text-white);
@@ -42,5 +57,6 @@ a {
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   color: var(--opis-text);
 }

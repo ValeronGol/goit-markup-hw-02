@@ -1,0 +1,11 @@
+/* Стили для портфолио */
+.portfolio-btn {
+  font-weight: 500;
+}
+.portfolio-title {
+  font-weight: 700;
+}
+.portfolio-par {
+  font-weight: 400;
+  color: var(--opis-text);
+}
