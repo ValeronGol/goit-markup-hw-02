@@ -56,12 +56,6 @@ button {
 .link-mail:focus {
   color: var(--blue-text);
 }
-.link-tel {
-  color: var(--gray-text);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 /* стили для footer*/
 .footer {
   background: var(--fon-color);
