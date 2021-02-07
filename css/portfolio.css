@@ -1,12 +1,10 @@
 /* Стили для портфолио */
-.btn {
-  text-align: center;
-}
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
+  text-align: center;
   background-color: var(--btn-color);
 }
 .portfolio-btn:hover,

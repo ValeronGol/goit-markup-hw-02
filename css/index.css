@@ -47,25 +47,25 @@
 }
 
 /* Стили для команды*/
-.team {
-  text-align: center;
-}
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .team-title-li {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .team-par {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--gray-text);
 }
