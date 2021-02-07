@@ -4,6 +4,11 @@
 }
 .portfolio-btn {
   font-weight: 500;
+  background-color: var(--btn-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--logo-web);
 }
 .portfolio-title {
   font-weight: 700;
