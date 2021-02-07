@@ -2,17 +2,16 @@
 .hero {
   background-color: var(--fon-color);
   color: var(--text-white);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
   text-transform: uppercase;
-  text-align: center;
 }
 .hero-link {
   background-color: var(--logo-web);
   color: var(--text-white);
   font-weight: 700;
-  text-align: center;
 }
 /* Стили для особенностей */
 .priority-title {
