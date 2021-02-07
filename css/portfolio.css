@@ -9,6 +9,7 @@
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--logo-web);
+  color: var(--text-white);
 }
 .portfolio-title {
   font-weight: 700;
