@@ -24,24 +24,33 @@ button {
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--logo-text);
 }
 .logo {
-  color: var(--logo-web);
+  color: var(--blue-text);
 }
 .current-link {
-  color: var(--logo-web);
+  color: var(--blue-text);
   font-weight: 500;
 }
 .link {
   font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
-  color: var(--logo-web);
+  color: var(--blue-text);
 }
 .link-tel {
-  color: var(--opis-text);
+  color: var(--gray-text);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 /* стили для footer*/
 .footer {
@@ -58,5 +67,8 @@ button {
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--text-white);
 }

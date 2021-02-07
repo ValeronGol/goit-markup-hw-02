@@ -6,31 +6,66 @@
 }
 .hero-title {
   font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-link {
-  background-color: var(--logo-web);
+  background-color: var(--blue-text);
   color: var(--text-white);
   font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
+
 /* Стили для особенностей */
 .priority-title {
   font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .priority-par {
   font-weight: 400;
-  color: var(--opis-text);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--gray-text);
 }
+
 /* Стили для детельности */
+
 .deal-title {
   font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
+
 /* Стили для команды*/
+.team {
+  text-align: center;
+}
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+.team-title-li {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 .team-par {
   font-weight: 400;
-  color: var(--opis-text);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--gray-text);
 }
