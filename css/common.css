@@ -7,6 +7,14 @@ button {
   font-family: 'Roboto', sans-serif;
   color: var(--title-text);
 }
+
+/* Контейнер для центрирования */
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -20,6 +28,7 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /* стили для header */
 .header-logo {
   font-family: 'Raleway', sans-serif;
